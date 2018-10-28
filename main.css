@@ -922,7 +922,8 @@ body.modal-open {
     
     .headline {
         
-        font-size: 400%;
+        font-size: 300%;
+        letter-spacing: -1px;
         
     }
     
