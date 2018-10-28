@@ -845,6 +845,16 @@ body.modal-open {
     margin-bottom: 10px;
     
 }
+
+
+    .overlay {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+  opacity: .9;
+  background-color: #FFFFFF;
+    
+}
     
 }
     
