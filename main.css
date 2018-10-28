@@ -933,6 +933,18 @@ body.modal-open {
         
     }
     
+    .section-name {
+        
+        border-bottom: none;
+        
+    }
+    
+    .section-description {
+        
+        display: none;
+        
+    }
+    
 }
        
 
