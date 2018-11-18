@@ -735,6 +735,13 @@ body.modal-open {
     overflow: visible;
 }
 
+.honors-awards {
+    
+    border-left: 1px solid gray;
+    padding-left: 40px;
+    
+}
+
 
 /* map */
 
