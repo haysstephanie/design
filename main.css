@@ -203,6 +203,16 @@ canvas {
     
 }
 
+.photo-grid {
+    
+    border-top: 1px solid gray;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    
+}
+
 
 .graphics-grid {
     
@@ -210,6 +220,12 @@ canvas {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
     margin-top: 50px;
+}
+
+.graphics-description {
+    
+    grid-column: 1/5;
+    
 }
 
 .section-label {
@@ -325,10 +341,25 @@ canvas {
 
 .photo {
     
+    width: 100%;
+    display: block;
+    margin-right: 30px;
+    float: left;
+    
+}
+
+.about-photo-container {
+    
     width: 40%;
     display: block;
     margin-right: 30px;
     float: left;
+    
+}
+
+.photo-page {
+    
+    margin-bottom: 10px;
     
 }
 
@@ -437,20 +468,14 @@ canvas {
     
 }
 
-.fastest-growing {
-    
-    grid-column: 1/3;
-    
-}
 
 
-
-.banks-graphic, .battery-graphic {
+.banks-graphic, .battery-graphic, .identity-graphic {
     
     grid-column: 1/3;
 }
 
-.arts-economy-graphic, .identity-graphic, .bptw-graphic {
+.arts-economy-graphic, .bptw-graphic, .fastest-growing {
     
     grid-column: 3/5;
     
@@ -465,26 +490,26 @@ canvas {
 
 
 
-.twin-rivers, .employment, .dolly {
+.bugatto-graphic, .employment, .dolly, .fastest-graphic {
     
     grid-column: 1/3;
     
 }
 
-.native-american {
+.forty, .native-american, .election {
     
     grid-column: 1/3;
     padding-bottom: 0;
     
 }
 
-.rewind-layout-spread, .election, .cfo {
+.rewind-layout-spread, .vacancy, .twin-rivers, .cfo {
     
     
     grid-column: 2/4;
 }
 
-.real-estate, .battery-man-inside  {
+.bugatto, .battery-man-inside  {
     
     grid-column: 2/4;
     
@@ -496,7 +521,7 @@ canvas {
     
 }
 
-.fastest, .taxes {
+ .taxes {
     
     grid-column: 2/4;
     
@@ -594,38 +619,8 @@ canvas {
     
 }
 
-.modal-carousel-test {
-    text-align:center;
-    max-height: 500vh;
-    width: auto;
-    overflow: visible;
-}
 
-.modal-dialog-test {
-    
-    height: 100%;
-    
-}
 
-.modal-carousel > .modal-dialog > .modal-content > .carousel > .carousel-inner > .carousel-item > img {
-    
-    max-height: 580px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.modal-carousel > .modal-dialog > .modal-content > .carousel > .carousel-inner > .carousel-item > .card > img {
-    
-    max-height: 530px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
@@ -771,7 +766,7 @@ body.modal-open {
         margin-bottom: 20px;
     }
     
-    .layout-carousel, .dolly, .cfo, .election, .twin-rivers, .fastest, .employment, .taxes, .real-estate, .native-american, .battery-man-inside, .rewind-layout-spread {
+    .layout-carousel, .dolly, .cfo, .election, .twin-rivers, .fastest-graphic, .employment, .taxes, .bugatto, .native-american, .battery-man-inside, .rewind-layout-spread, .forty, .bugatto-graphic {
         
         width: 100%;
         height: 100%;
