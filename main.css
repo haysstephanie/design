@@ -686,7 +686,7 @@ canvas {
     
 }
 
-.post-carousel  > .carousel-inner > .carousel-item > .carousel-link > img {
+.post-carousel  > .carousel-inner > .carousel-item > .carousel-link >  img {
     
     max-height: 600px;
     width: auto;
@@ -839,6 +839,17 @@ body.modal-open {
     color: white;
 }
 
+@media (max-width: 1400px) {
+    
+   .post-carousel  > .carousel-inner > .carousel-item >.carousel-link > img {
+    
+    max-height: 350px;
+    
+} 
+    
+    
+}
+
 @media (max-width: 1000px) {
 
   
@@ -864,7 +875,7 @@ body.modal-open {
         
     }
     
-    .post-carousel  > .carousel-inner > .carousel-item > img {
+    .post-carousel  > .carousel-inner > .carousel-item >.carousel-link > img {
     
     max-height: 300px;
     
@@ -1082,7 +1093,7 @@ body.modal-open {
         
     }
     
-     .post-carousel  > .carousel-inner > .carousel-item > img {
+     .post-carousel  > .carousel-inner > .carousel-item > .carousel-link > img {
     
     max-height: 250px;
     
