@@ -1100,6 +1100,13 @@ body.modal-open {
 }
     
 }
+
+@media (max-width: 500px) {
+    
+    .post-carousel  > .carousel-inner > .carousel-item > .carousel-link > img {
+    max-height: 200px;
+    }
+}
        
 
 
