@@ -582,7 +582,22 @@ canvas {
     
 }
 
+.post-photo-and-caption {
+    
+    display: block;
+    width: 100%;
+    float: left;
+    margin-right: 5px;
+    
+}
 
+.post-photo-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+}
 
 
 
@@ -670,6 +685,24 @@ canvas {
     margin: auto;
     
 }
+
+.post-carousel  > .carousel-inner > .carousel-item > .carousel-link > img {
+    
+    max-height: 600px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.post-carousel {
+    
+    grid-column: 1/4;
+
+    
+}
+
+
 
 .card-text {
     
@@ -830,6 +863,12 @@ body.modal-open {
         height: 100%;
         
     }
+    
+    .post-carousel  > .carousel-inner > .carousel-item > img {
+    
+    max-height: 300px;
+    
+}
     
     .photo-grid {
         
@@ -1042,6 +1081,12 @@ body.modal-open {
         width: 100%;
         
     }
+    
+     .post-carousel  > .carousel-inner > .carousel-item > img {
+    
+    max-height: 250px;
+    
+}
     
 }
        
