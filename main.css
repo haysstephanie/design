@@ -404,14 +404,14 @@ canvas {
   width: 100%;
 }
 
-.nav {
+.navigation-1 {
     
     width: 80%;
     margin: auto;
     
 }
 
-.nav-link {
+.nav-link-1 {
     
     color: white;
     
@@ -422,6 +422,17 @@ canvas {
     font-family: "Roboto";
     font-weight: 300;
     font-size: 80%;
+    
+}
+
+
+.navigation-2 {
+    
+    border-top: 1px solid gray;
+    background: white;
+    padding-top: px;
+    position: sticky;
+    top: 32px;
     
 }
 
@@ -561,12 +572,14 @@ canvas {
 
 .post-section-pilot {
     
-    display: grid;
     grid-column: 1/5;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     
 }
+
+
 
 .post-label {
     
@@ -854,7 +867,7 @@ body.modal-open {
 
   
     
-    .layout-grid, .awards-grid {
+    .layout-grid, .awards-grid, .post-section-pilot {
         display: inline-block;
         
     }
