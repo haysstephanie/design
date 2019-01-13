@@ -433,6 +433,7 @@ canvas {
     padding-top: px;
     position: sticky;
     top: 32px;
+    z-index: 500;
     
 }
 
@@ -711,8 +712,22 @@ canvas {
 .post-carousel {
     
     grid-column: 1/4;
+   
+}
 
+.post-carousel-sbj  > .carousel-inner > .carousel-item > .carousel-link >  img {
     
+    max-height: 600px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.post-carousel-sbj {
+    
+    grid-column: 1/4;
+   
 }
 
 
@@ -860,6 +875,12 @@ body.modal-open {
     
 } 
     
+     .post-carousel-sbj  > .carousel-inner > .carousel-item >.carousel-link > img {
+    
+    max-height: 350px;
+    
+} 
+    
     
 }
 
@@ -889,6 +910,12 @@ body.modal-open {
     }
     
     .post-carousel  > .carousel-inner > .carousel-item >.carousel-link > img {
+    
+    max-height: 300px;
+    
+}
+    
+    .post-carousel-sbj  > .carousel-inner > .carousel-item >.carousel-link > img {
     
     max-height: 300px;
     
@@ -1112,6 +1139,12 @@ body.modal-open {
     
 }
     
+    .post-carousel-sbj  > .carousel-inner > .carousel-item > .carousel-link > img {
+    
+    max-height: 200px;
+    
+}
+    
 }
 
 @media (max-width: 500px) {
@@ -1119,6 +1152,13 @@ body.modal-open {
     .post-carousel  > .carousel-inner > .carousel-item > .carousel-link > img {
     max-height: 200px;
     }
+    
+    .post-carousel-sbj  > .carousel-inner > .carousel-item > .carousel-link > img {
+    
+    max-height: 175px;
+    
+}
+    
 }
        
 
