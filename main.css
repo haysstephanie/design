@@ -673,7 +673,7 @@ canvas {
 
 /* carousel */
 
-.carousel-no-caption > .carousel > .carousel-inner > .carousel-item > img {
+.carousel-no-caption > .carousel > .carousel-inner > .carousel-item > .carousel-link > img {
     max-height: 300px;
     width: auto;
     display: block;
@@ -681,7 +681,7 @@ canvas {
     margin-right: auto
 }
 
-.photography > .carousel > .carousel-inner > .carousel-item > .card {
+.photography > .carousel > .carousel-inner > .carousel-item > .carousel-link> .card {
     
     border: none;
     
@@ -693,7 +693,7 @@ canvas {
     
 }
 
-.photography > .carousel > .carousel-inner > .carousel-item > .card > img{
+.photography > .carousel > .carousel-inner > .carousel-item > .carousel-link > .card > img{
     
     height: 250px;
     width: auto;
