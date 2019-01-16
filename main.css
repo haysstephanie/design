@@ -1156,6 +1156,28 @@ body.modal-open {
     
 }
     
+    .post-image-social, .post-photo-and-caption {
+        
+        width: 100%;
+    }
+    
+    .post-photo-grid {
+        
+        display: block;
+        
+    }
+    
+    .best-of-2, .best-of-3 {
+        display: none;
+        
+    }
+    
+    .best-of-1 {
+        
+        width: 100%;
+        
+    }
+    
   
     
 }
