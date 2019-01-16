@@ -242,10 +242,12 @@ canvas {
     
 }
 
+
+
 .package-title {
     
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 
@@ -596,6 +598,14 @@ canvas {
     grid-column: 1/4;
     
 }
+
+.post-image-social {
+    
+    width: 49%;
+    
+}
+
+
 
 .post-photo-and-caption {
     
@@ -1143,6 +1153,12 @@ body.modal-open {
     .post-carousel-sbj  > .carousel-inner > .carousel-item > .carousel-link > img {
     
     max-height: 200px;
+    
+}
+    
+    .post-image-social {
+    
+    width: 100%;
     
 }
     
