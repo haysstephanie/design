@@ -340,6 +340,24 @@ canvas {
     
 }
 
+.reporting-image {
+    
+    width: 100%;
+    grid-column: 1/5;
+    
+}
+
+.reporting-link, .reporting-description {
+    
+    width: 100%;
+    grid-column: 1/5;
+    
+}
+
+.anchor-container {
+    grid-column: 1/5;
+}
+
 
 .about-link {
     
