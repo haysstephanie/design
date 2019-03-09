@@ -145,6 +145,12 @@ canvas {
     
 }
 
+.journal-link {
+    
+    color: rgb(78, 181, 201);
+    
+}
+
 .overlay {
     position: absolute;
   top: 0;
