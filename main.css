@@ -61,10 +61,6 @@ canvas {
     z-index: 10;
 }
 
-.footer {
-    
-    height: 20px;
-}
 
 .copyright {
     
@@ -73,6 +69,8 @@ canvas {
     font-size: 70%;
     
 }
+
+
 
 /* cover image */
    
@@ -893,7 +891,7 @@ body.modal-open {
 
 .footer {
     margin-top: 50px;
-    color: white;
+    
 }
 
 @media (max-width: 1400px) {
@@ -909,6 +907,12 @@ body.modal-open {
     max-height: 350px;
     
 } 
+    
+    .iframe-video {
+        
+        height: 300px;
+        
+    }
     
     
 }
@@ -961,6 +965,8 @@ body.modal-open {
         grid-gap: 30px;
         
     }
+    
+    
        
 }
 
@@ -1196,7 +1202,11 @@ body.modal-open {
         
     }
     
-  
+    .iframe-video {
+        
+        height: 200px;
+        
+    }
     
 }
 
@@ -1209,7 +1219,8 @@ body.modal-open {
     .post-carousel-sbj  > .carousel-inner > .carousel-item > .carousel-link > img {
     
     max-height: 150px;
-    
+
+        
 }
     
     
