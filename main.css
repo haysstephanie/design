@@ -479,7 +479,7 @@ canvas {
 
 .organization {
     
-    font-size: 87%;
+    font-size: 80%;
     text-transform: uppercase;
     
 }
@@ -994,7 +994,7 @@ body.modal-open {
     
     
 
-    .layout-carousel, .dolly, .cfo, .election, .twin-rivers, .fastest, .employment, .taxes {
+    .layout-carousel, .dolly, .cfo, .election, .twin-rivers, .fastest, .employment, .taxes, .vacancy {
         
         width: 100%;
         
