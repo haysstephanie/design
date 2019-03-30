@@ -1274,10 +1274,14 @@ body.modal-open {
     
     max-height: 150px;
 
+     
+    }
+    
+    .navbar {
         
-}
-    
-    
+        padding-bottom: 15px;
+        
+    } 
     
 }
        
