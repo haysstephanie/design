@@ -186,6 +186,14 @@ canvas {
     
 }
 
+.about-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    
+}
+
 .graphics-grid-outer {
     
     display: grid;
@@ -259,7 +267,7 @@ canvas {
     
   
     padding-left: 20px;
-    grid-column: 4/5;
+    grid-column: 5/7;
     margin-top: -10px;
     
 }
@@ -267,9 +275,16 @@ canvas {
 .contact-text { 
 
     margin-top: -10px;
-    font-size: 80%;
-    line-height: 100%;
+    font-size: 90%;
+    line-height: 120%;
 
+}
+
+.award-text {
+    
+    font-size: 90%;
+    line-height: 120%;
+    
 }
 
 .award {
@@ -292,7 +307,7 @@ canvas {
 }
 
 .description {
-    grid-column: 1/4;
+    grid-column: 1/5;
 }
 
 .web-description {
@@ -300,7 +315,6 @@ canvas {
     grid-column: 1/5;
     
 }
-
 
 
 .organization-name {
@@ -600,7 +614,11 @@ canvas {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
     
+}
+
+.print-description {
     
+    margin-top: -40px;
     
 }
 
@@ -630,12 +648,19 @@ canvas {
 
 
 
-.post-label {
+.post-label,  {
     
     grid-column: 1/5;
     margin-bottom: 0px;
     margin-top: 20px;
     
+    
+}
+
+.page-description-long {
+    
+    grid-column: 1/5;
+    margin-top: -30px;
     
 }
 
@@ -648,6 +673,17 @@ canvas {
 .post-image-social {
     
     width: 49%;
+    
+}
+
+.waterfront-images {
+    
+    grid-column: 1/5;
+    
+}
+
+.notables {
+    width: 100%;
     
 }
 
@@ -843,6 +879,18 @@ canvas {
     
 }
 
+.layout-section-wide {
+    
+    grid-column: 3/5;
+    
+}
+
+.layout-section-wide-2 {
+    
+    grid-column: 2/5
+    
+}
+
 
 
 
@@ -1033,7 +1081,7 @@ body.modal-open {
     
 }
     
-    .section-grid {
+    .section-grid, .about-grid {
     
     display: block;
         
@@ -1110,6 +1158,7 @@ body.modal-open {
         margin-bottom: 0px;
         margin-top: 0px;
     }
+    
     
     
 }
@@ -1222,7 +1271,7 @@ body.modal-open {
         
     }
     
-    .post-label {
+    .post-label, .page-description-long {
         
         width: 100%;
         
@@ -1296,8 +1345,5 @@ body.modal-open {
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
-
-
-
 
 
