@@ -661,12 +661,14 @@ canvas {
     
     grid-column: 1/5;
     margin-top: -30px;
+    font-size: 87%;
+    line-height: 140%;
     
 }
 
 .post-image-link {
     
-    grid-column: 1/4;
+    grid-column: 1/5;
     
 }
 
@@ -829,7 +831,7 @@ canvas {
 
 .post-description {
     grid-column: 1/5;
-    margin-bottom: -50px;
+    margin-bottom: -30px;
     margin-top: -20px;
 }
 
