@@ -1067,6 +1067,12 @@ body.modal-open {
         
     }
     
+    .print-description {
+    
+    margin-top: -20px;
+    
+}
+    
     
        
 }
@@ -1158,6 +1164,7 @@ body.modal-open {
         margin-bottom: 0px;
         margin-top: 0px;
     }
+    
     
     
     
@@ -1316,6 +1323,20 @@ body.modal-open {
         height: 200px;
         
     }
+    
+    
+    .print-description {
+    
+    margin-top: 0px;
+    
+}
+    
+    .page-description-long {
+    
+    grid-column: 1/5;
+    margin-top: 0px;
+    
+}
     
 }
 
