@@ -241,6 +241,14 @@ canvas {
     margin-top: 50px;
 }
 
+.application-graphics-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
 .graphics-description {
     
     grid-column: 1/5;
@@ -643,6 +651,15 @@ canvas {
     grid-gap: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.post-section-motion {
+    
+    grid-column: 1/5;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     
 }
 
@@ -1131,6 +1148,11 @@ body.modal-open {
     
     
     }
+    
+    .application-graphics-grid {
+    margin-top: 20px;
+    
+}
     
     .best-layout-images-1 {
         
