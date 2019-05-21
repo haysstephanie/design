@@ -1192,9 +1192,16 @@ body.modal-open {
     
 }
     
-    .section-grid, .about-grid {
+    .section-grid, .about-grid, .large-section, .large-section-third {
     
     display: block;
+        
+    }
+    
+    .large-section-image-small-1, .large-section-image-small-2, .large-section-image-third-small {
+        
+        width: 60%;
+        margin: auto;
         
     }
     
@@ -1468,6 +1475,13 @@ body.modal-open {
         margin-bottom: 15px;
         
     } 
+    
+    .large-section-image-small-1, .large-section-image-small-2, .large-section-image-third-small {
+        
+        width: 100%;
+   
+        
+    }
     
 }
        
