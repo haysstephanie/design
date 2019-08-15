@@ -284,6 +284,14 @@ canvas {
     
 }
 
+.portfolio-grid-2 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
 .portfolio-section:hover .overlay {
     opacity: .9;
     color: white;
@@ -1195,6 +1203,15 @@ canvas {
     line-height: 120%;
     margin-top: 10px;
     padding-bottom: 0px;
+}
+
+.secondary-headline-main-2 {
+    font-family: 'Scope One';
+    line-height: 120%;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    
+    
 }
 
 .layout-secondary {
