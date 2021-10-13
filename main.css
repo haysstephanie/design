@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;730;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400;500;600;700;730;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Scope+One&display=swap');
+
+/* tags */
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+
+body,h1,h2,h4,h5,h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.h1-bold {
+   font-family: "Roboto Slab"; 
+    font-weight: 900;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 90%;
+    }
+
+    @media (max-width: 540px) {
+        .h1-bold {
+            font-size: 35px;
+        }
+        
+    }
+
+
+.portfolio-page-header {
+   font-family: "Roboto Slab"; 
+    font-weight: 900;
+    font-size: 80px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 90%;
+    
+}
+
+ @media (max-width: 540px) {
+     .portfolio-page-header{
+         margin-top: 200px;
+        font-size: 45px;
+         line-height: 100%;
+     }
+    }
+
+h1 {
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 45px;
+    color: black;
+    line-height: 150%;
+    
+}
+
+@media (max-width: 540px) {
+    
+    h1{
+        font-size: 25px;
+    }
+    }
+
+h3 {
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-item {
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+h4 {
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    line-height: 85%;
+}
+
+@media (max-width: 540px) {
+    h4 {
+        font-size: 25px;
+        line-height: 100%;
+    }
+}
+
+h5 {
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 160%;
+    
+}
+
+p {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    box-shadow: inset 0px -4px #79DEF2;
+}
+
+a:hover {
+    color: #79DEF2;
+}
+
+.label, .label-org {
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    padding-bottom: 20px;
+    letter-spacing: 0.5px;
+    align-items: stretch;
+}
+
+@media (max-width: 540px) {
+    .label {
+        padding-bottom: 0px;
+    }
+}
+
+.label-org {
+    padding-bottom: 0px;
+}
+
+.header-text {
+    width: 70%;
+}
+
+@media (max-width: 540px) {
+    .header-text {
+        
+        margin-top: 200px;
+        width: 100%;
+    }
+}
+
+.header {
+    
+    margin: 50px 0px 75px 0px;
+   height: 675px;
+    padding-bottom: 45px;
+    border-bottom: 25px solid lightgray;
+    
+}
+
+@media (max-width: 540px) {
+    
+    .header {
+       
+        height: 100%;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+    
+
+/* navbar info */
+
+
+.navigation {
+    display: flex;
+    width: 100%;
+   overflow: auto;
+}
+
+@media (max-width: 540px) {
+    .navigation {
+        overflow: visible;
+        margin-top: 10px;
+       
+    }
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 15px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+
+
+/* add divs that need page margins here */
+
+.featured-background {
+   
+    background-color: white;
+    
+}
+
+.featured {
+    margin-bottom: 100px;
+}
+
+.featured-label {
+   
+}
+
+.featured-description {
+    display: inline;
+    float: left;
+    width: 45%;
+    margin-right: 40px;
+   
+}
+
+.featured-video {
+    display: inline;
+}
+
+.cta {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+}
+
+ .portfolio-page, .portfolio-page-special, .featured-section, {
+    margin: 0px 70px 0px 70px;
+}
+
+.featured-section {
+    border-bottom: 25px solid lightgray;
+    padding-bottom: 75px;
+}
+
+@media (max-width:540px) {
+    .featured-section {
+        padding-bottom: 25px;
+    }
+}
+
+.portfolio {
+    padding-top: 0px;
+}
+
+@media (max-width: 540px) {
+    .portfolio {
+        padding-top: 30px;
+    }
+}
+
+.portfolio-section {
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+    padding-top: 35px;
+    margin-top: -9px;
+}
+
+@media (max-width: 540px) {
+    .portfolio-section {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+.portfolio-section-description {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 35px;
+    color: gray;
+}
+
+@media (max-width: 540px) {
+    .portfolio-section-description {
+        font-size: 20px;
+    }
+}
+
+.portfolio-section:hover {
+    background-color: rgb(230, 230, 230); 
+    color: black;
+}
+
+.portfolio-link:hover {
+    text-decoration: none;
+}
+
+/* Just portfolio pages */
+
+
+body {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+@media (max-width: 540px) {
+    
+    body {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    
+    border-bottom: 1px solid lightgray;
+}
+
+@media (max-width: 540px) {
+    .row {
+        margin-top: 40px;
+    }
+}
+
+.news-section {
+    font-style: italic;
+}
+
+.page-notes {
+    font-size: 16px;
+   /* font-weight: 400;*/
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+@media (max-width: 540px) {
+    .page-notes {
+    margin-bottom: 0px;
+      
+    }
+}
+
+.section-header {
+    margin-bottom: 20px;
+
+}
+
+
+.ref {
+    font-size: 30px;
+}
+
+.ref-container {
+    background-color: lightgray;
+}
+
+
+.web-project-name {
+    font-weight: 900;
+    
+}
+
+.web-project-description {
+    margin-right: 20px;
+}
+
+@media (max-width:540px) {
+    .web-project-description {
+        margin-bottom: 20px;
+    }
+}
+
+.web-video {
+    box-shadow: 0 0 3px gray;
+}
+
+
+.col-group {
+    margin-bottom: 35px;
+}
+
+@media (max-width: 540px) {
+    .col-group {
+    margin-bottom: 20px;
+    }
+}
+
+
+/* about page */
+
+.about-pic {
+    padding-left: 30px;
+    width:100%;
+}
+
+.about-pic-container{
+    display: inline-block;
+    width: 44%;
+   
+}
+
+@media (max-width: 540px) {
+    .about-pic-container {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .about-pic {
+        padding-left: 0px;
+    }
+}
+
+.award-year {
+    font-weight: 900;
+    color: gray;
+}
+
+.award-organization {
+   
+}
+
+.award-type {
+   font-weight: 500;
+}
+
+.award-description {
+    font-style: italic;
+}
+
+@media (max-width:540px) {
+    .award-container{
+        margin-bottom: 40px;
+    }
+}
+
+.award-container span {
+    margin-right: 5px;
+}
+
+.contact-container p {
+    text-align: center;
+}
+
+@media (max-width:540px) {
+    .contact-container p{
+        text-align: left;
+        height: 12px;
+    }
+}
+
+.contact-container {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* case study pages */
+
+.forty-header {
+    padding-top: 400px;
+}
+
+.featured-description-case-study {
+    width: 55%;
+    display: inline-block;
+    float: left;
+}
+
+@media (max-width: 540px) {
+    .featured-description-case-study {
+    width: 100%;
+    display: inline-block;
+}
+}
+
+.case-study-description {
+    font-size: 26px;
+    font-weight: 300;
+   
+}
+
+@media (max-width: 540px) {
+   .case-study-description {
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+}
+
+.lead-in {
+    font-family: "Roboto";
+    font-weight: 700;
+    color: gray;
+ 
+}
+
+.portfolio-image {
+    margin-top: 50px;
+    box-shadow: 0 0 3px gray;
+}
+
+.portfolio-image-nm {
+   
+    box-shadow: 0 0 3px gray;
+    margin-bottom: 20px;
+}
+
+.portfolio-image-double {
+    grid-column: 1/5;
+}
+
+
+.case-study-section {
+    margin-bottom: 100px;
+   
+}
+
+.portfolio-image-social {
+   width: 23%;
+ 
+}
+
+.portfolio-image-berliner-spread {
+    width: 75%;
+}
+
+.portfolio-image-berliner {
+    width: 42%;
+    margin-right: 30px;
+}
+
+.portfolio-image-broadsheet {
+    width: 40%;
+    margin-right: 30px;
+}
+
+.portfolio-image-broadsheet-spread {
+    width: 45%;
+    margin-right: 30px;
+}
+
+.portfolio-image-broadsheet-set {
+    width: 21.7%;
+    margin-right: 30px;
+}
+
+.portfolio-video {
+    margin-top: 50px;
+}
+
+.portfolio-image-video-square {
+    width: 45%;
+    margin-right: 30px;
+}
+
+/* footer */
+
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 540px) {
+    .footer {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+}
+
