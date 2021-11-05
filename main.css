@@ -240,6 +240,9 @@ a:hover {
 .featured-section {
     border-bottom: 25px solid lightgray;
     padding-bottom: 75px;
+    display: block;
+    overflow: auto;
+    
 }
 
 @media (max-width:540px) {
@@ -409,7 +412,7 @@ body {
    
 }
 
-@media (max-width: 540px) {
+@media (max-width: 768px) {
     .about-pic-container {
         width: 100%;
         margin: auto;
@@ -437,7 +440,7 @@ body {
     font-style: italic;
 }
 
-@media (max-width:540px) {
+@media (max-width:768px) {
     .award-container{
         margin-bottom: 40px;
     }
@@ -449,9 +452,10 @@ body {
 
 .contact-container p {
     text-align: center;
+    font-size: 14px;
 }
 
-@media (max-width:540px) {
+@media (max-width:992px) {
     .contact-container p{
         text-align: left;
         height: 12px;
@@ -471,11 +475,12 @@ body {
 
 .featured-description-case-study {
     width: 55%;
-    display: inline-block;
+    display: block;
+    overflow: auto;
     float: left;
 }
 
-@media (max-width: 540px) {
+@media (max-width:992px) {
     .featured-description-case-study {
     width: 100%;
     display: inline-block;
