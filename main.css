@@ -42,7 +42,7 @@ body,h1,h2,h4,h5,h6 {
 
  @media (max-width: 540px) {
      .portfolio-page-header{
-         margin-top: 200px;
+   
         font-size: 45px;
          line-height: 100%;
      }
@@ -151,7 +151,7 @@ a:hover {
 .header {
     
     margin: 50px 0px 75px 0px;
-   height: 675px;
+   height: 100vh;
     padding-bottom: 45px;
     border-bottom: 25px solid lightgray;
     
@@ -161,7 +161,7 @@ a:hover {
     
     .header {
        
-        height: 100%;
+        height: 100vh;
         padding-bottom: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -176,6 +176,7 @@ a:hover {
 .navigation {
     display: flex;
     width: 100%;
+    height: 100%;
    overflow: auto;
 }
 
@@ -491,6 +492,10 @@ body {
     font-size: 26px;
     font-weight: 300;
    
+}
+
+.link-list {
+    font-style: italic;
 }
 
 @media (max-width: 540px) {
