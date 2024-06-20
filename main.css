@@ -7,6 +7,7 @@
 $grid-columns: 12 !default;
 $grid-gutter-width: 30px !default;
 
+
 body,h1,h2,h4,h5,h6 {
     font-family: "Roboto", sans-serif;
 }
@@ -292,6 +293,8 @@ a:hover {
 .portfolio-section:hover {
     background-color: rgb(230, 230, 230); 
     color: black;
+    transition: 0.5s;
+    border: none;
 }
 
 .portfolio-link:hover {
@@ -322,7 +325,7 @@ body {
     padding-right: 0px;
 }
 
-.row {
+.section-break {
     margin-top: 50px;
     padding-bottom: 20px;
     
@@ -330,7 +333,7 @@ body {
 }
 
 @media (max-width: 540px) {
-    .row {
+    .section-break {
         margin-top: 40px;
     }
 }
@@ -370,6 +373,8 @@ body {
 
 
 .web-project-name {
+    margin-top: 16px;
+    font-size: 26px;
     font-weight: 900;
     
 }
