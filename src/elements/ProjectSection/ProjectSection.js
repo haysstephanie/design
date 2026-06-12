@@ -92,8 +92,11 @@ function ProjectSection() {
                         <video
                           controls
                           muted
-                          playsinline
-                          webkit-playsinline
+                          playsInline
+                          {...{
+                            "webkit-playsinline": "",
+                            "x5-playsinline": "",
+                          }}
                           src={visual.source}
                           className="video"
                         />
@@ -113,8 +116,11 @@ function ProjectSection() {
                           autoPlay
                           muted
                           loop
-                          playsinline
-                          webkit-playsinline
+                          playsInline
+                          {...{
+                            "webkit-playsinline": "",
+                            "x5-playsinline": "",
+                          }}
                           src={visual.source}
                           type={visual.pagetype}
                           className={`animation ${visual.pagetype}`}
