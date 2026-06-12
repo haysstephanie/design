@@ -46,7 +46,7 @@ export const printInformationArray = [
   {
     title: "American Icon",
     description: "Pages designed for the American Icon series about the AR-15.",
-    awards: `This pages were a part of the series that won the XXXX Pulitzer Prize for XXXXX, and Best in Show at the XXXX SND's Creative Competition`,
+    awards: `These pages were part of the series that won the 2024 Pulitzer Prize for National Reporting and Best in Show at the 2024 SND Creative Competition`,
     pages: [
       {
         type: "single",

@@ -281,7 +281,7 @@ export const projectInformationArray = [
   {
     name: "Youth Crime in D.C.",
     description:
-      "A four-part series about youth crime in D.C. Art directed a series of three illustration with a uniting clock motif and consistent color palette. Designed and developed a thoughtful way to display documents in a screen-reader and mobile-friendly format. Illustrations by Sally Deng. Collaborated with Carson TerBush.",
+      "A four-part series about youth crime in D.C. Art directed a series of three illustrations with a uniting clock motif and consistent color palette. Designed and developed a thoughtful way to display documents in a screen-reader and mobile-friendly format. Illustrations by Sally Deng. Collaborated with Carson TerBush.",
     skills: "Web development, Art direction, UX design, Print design",
     awards: [
       {

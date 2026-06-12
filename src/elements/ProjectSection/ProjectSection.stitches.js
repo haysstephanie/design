@@ -18,7 +18,6 @@ const OverviewWrapper = styled("div", {
   flexDirection: "column",
   gap: "60px",
   marginBottom: "20px",
-  alignItems: "flex-start",
 });
 
 const DetailsWrapper = styled("div", {
@@ -45,6 +44,7 @@ const ProjectImageWrapper = styled("div", {
   columnGap: "30px",
   rowGap: "60px",
   justifyContent: "center",
+  alignItems: "center",
 
   "& .video": {
     width: "75%",

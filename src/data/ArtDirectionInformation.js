@@ -129,7 +129,7 @@ export const artDirectionInformationArray = [
     link: "https://www.washingtonpost.com/politics/interactive/2023/house-committee-assignment-process-quiz/",
     illustrator: [
       {
-        name: "Illustrations by xxxxxx",
+        name: "Illustrations by Till Lauer",
         portfolio: "https://jordanawan.com/",
       },
     ],

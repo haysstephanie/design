@@ -18,6 +18,11 @@ export const aboutInformationArray = [
         year: 2024,
       },
       {
+        title: "Best in Show",
+        organization: "Society for News Design",
+        year: 2024,
+      },
+      {
         title: "Gold Medal for International Staff Portfolio",
         organization: "Society for News Design",
         year: 2026,
