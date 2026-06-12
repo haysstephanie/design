@@ -89,6 +89,9 @@ const ProjectImageWrapper = styled("div", {
       "&.double": {
         width: "100%",
       },
+      "&.mobile": {
+        width: "75%",
+      },
     },
     "& .animation": {
       width: "75%",

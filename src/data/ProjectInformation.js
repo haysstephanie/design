@@ -153,9 +153,24 @@ export const projectInformationArray = [
         pagetype: "double",
       },
       {
-        type: "video",
-        source: "projects/moneywar/navigator-video.mp4",
+        type: "image",
+        source: "projects/moneywar/sanctions-mobile-1.png",
+        altText: ``,
+        pagetype: "mobile",
       },
+      {
+        type: "image",
+        source: "projects/moneywar/sanctions-mobile-2.png",
+        altText: ``,
+        pagetype: "mobile",
+      },
+      {
+        type: "image",
+        source: "projects/moneywar/sanctions-mobile-3.png",
+        altText: ``,
+        pagetype: "mobile",
+      },
+
       {
         type: "image",
         source: "projects/moneywar/navigator-mock.png",
@@ -167,6 +182,10 @@ export const projectInformationArray = [
         source: "projects/moneywar/guatemala-spread.png",
         alt: ``,
         pagetype: "double",
+      },
+      {
+        type: "video",
+        source: "projects/moneywar/navigator-video.mp4",
       },
     ],
   },

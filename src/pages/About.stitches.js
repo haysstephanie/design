@@ -8,6 +8,12 @@ const AboutHeader = styled("div", {
   //   flexDirection: "column",
   gap: "50px",
   justifyContent: "space-between",
+  "@sm": {
+    flexDirection: "column",
+    height: "auto",
+    marginBottom: "60px",
+    marginTop: "60px",
+  },
 });
 
 const AboutDescription = styled("div", {
@@ -22,6 +28,9 @@ const AboutDescription = styled("div", {
 const ProfilePhoto = styled("img", {
   width: "30%",
   height: "auto",
+  "@sm": {
+    width: "75%",
+  },
 });
 
 const AwardsWrapper = styled("div", {
@@ -43,6 +52,10 @@ const AboutDownpageWrapper = styled("div", {
   display: "flex",
   marginBottom: "100px",
   paddingBottom: "50px",
+  "@sm": {
+    flexDirection: "column",
+    gap: "40px",
+  },
 });
 
 export {

@@ -92,6 +92,7 @@ function ProjectSection() {
                         <video
                           controls
                           muted
+                          playsinline
                           src={visual.source}
                           className="video"
                         />
@@ -111,6 +112,7 @@ function ProjectSection() {
                           autoPlay
                           muted
                           loop
+                          playsinline
                           src={visual.source}
                           type={visual.pagetype}
                           className={`animation ${visual.pagetype}`}

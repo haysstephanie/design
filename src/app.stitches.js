@@ -36,7 +36,7 @@ const Name = styled("div", {
   marginBottom: "10px",
   // lineHeight: "75px",
   "@sm": {
-    fontSize: "50px",
+    fontSize: "55px",
   },
 });
 
@@ -48,6 +48,7 @@ const Description = styled("div", {
   lineHeight: "48px",
   "@sm": {
     fontSize: "30px",
+    lineHeight: "42px",
   },
 });
 
