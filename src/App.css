@@ -1,0 +1,9 @@
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.75px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #f0cd48 !important;
+}
