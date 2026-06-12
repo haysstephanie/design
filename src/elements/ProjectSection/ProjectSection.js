@@ -93,6 +93,7 @@ function ProjectSection() {
                           controls
                           muted
                           playsinline
+                          webkit-playsinline
                           src={visual.source}
                           className="video"
                         />
@@ -113,6 +114,7 @@ function ProjectSection() {
                           muted
                           loop
                           playsinline
+                          webkit-playsinline
                           src={visual.source}
                           type={visual.pagetype}
                           className={`animation ${visual.pagetype}`}
