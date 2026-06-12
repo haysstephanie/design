@@ -27,8 +27,6 @@ const name = "Print layout";
 const description =
   "Print design for The Washington Post, The Seattle Times and the Sacramento Business Journal";
 
-console.log(printInformationArray);
-
 const PrintLayout = (props) => {
   const { liveSection, setLiveSection } = props;
   return (
@@ -64,7 +62,6 @@ const PrintLayout = (props) => {
               </SectionDescription>
               <PrintPageWrapper>
                 {element.pages.map((page, i) => {
-                  console.log(page.awards);
                   switch (page.type) {
                     case "single": {
                       return (

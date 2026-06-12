@@ -29,7 +29,7 @@ const Accordion = (props) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  console.log(moreContent);
+  // console.log(moreContent);
 
   return (
     <AccordionWrapper>

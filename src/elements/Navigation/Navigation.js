@@ -18,10 +18,6 @@ const NavigationOptions = [
     name: "Art Direction",
     link: "/art-direction",
   },
-  {
-    name: "Social",
-    link: "/about",
-  },
 ];
 
 const Navigation = (props) => {
@@ -29,8 +25,11 @@ const Navigation = (props) => {
   const copyrightText = "©2026 Stephanie Hays.";
 
   const handleClick = (section) => {
+    console.log(section);
     setLiveSection(section);
   };
+
+  console.log(liveSection);
 
   return (
     <NavigationWrapper>
@@ -38,9 +37,13 @@ const Navigation = (props) => {
         return (
           <Link
             to={`${element.link}`}
-            onClick={handleClick(element.name)}
+            onClick={() => {
+              handleClick(element.name);
+              console.log(element.name);
+            }}
             style={{
               textDecoration: "none",
+              // display: element.name === liveSection ? "none" : "block",
             }}
           >
             <NavigationItem

@@ -93,7 +93,6 @@ const ArtDirection = (props) => {
                 </DetailsWrapper>
                 <IllustrationWrapper>
                   {illustration.illustrations.map((art, i) => {
-                    console.log(art.size);
                     switch (art.type) {
                       case "video":
                         return (

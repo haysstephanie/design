@@ -55,7 +55,6 @@ function ProjectSection() {
                 {story.awards.length > 0 && (
                   <AwardsContainer css={{ marginBottom: "25px" }}>
                     {story.awards.map((award, i) => {
-                      console.log(award);
                       return (
                         <Award css={{ marginBottom: "5px" }}>
                           🏆 {award.award}
@@ -87,7 +86,6 @@ function ProjectSection() {
               </DetailsWrapper>
               <ProjectImageWrapper>
                 {story.visuals.map((visual, i) => {
-                  console.log(story);
                   switch (visual.type) {
                     case "video":
                       return (

@@ -9,12 +9,14 @@ import Projects from "./pages/Projects";
 import ArtDirection from "./pages/ArtDirection";
 import Digital from "./pages/Digital";
 import About from "./pages/About";
+import ScrollToTop from "./elements/ScrollToTop/ScrollToTop";
 
 function App() {
   const [liveSection, setLiveSection] = useState("home");
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Routes>
           {" "}
           <Route

@@ -25,20 +25,19 @@ import {
 } from "./About.stitches";
 import { aboutInformationArray } from "../data/AboutInformation";
 
-const name = "Hi!";
+const name = "Hi, I'm Stephanie!";
 // const description = "tktktktk";
 
 const About = (props) => {
-  const { liveSection, setLiveSection } = props;
   return (
     <div>
-      <NavBar liveSection={liveSection} setLiveSection={setLiveSection} />
+      <NavBar />
       <PageWrapper css={{ marginBottom: "100px" }}>
         <AboutHeader>
           <ProfilePhoto src={aboutInformationArray[0].source} />
           <div>
             <Name>{name}</Name>
-            <Description>{aboutInformationArray[1].text}</Description>
+            {/* <Description>{aboutInformationArray[1].text}</Description> */}
             <AboutDescription>
               {aboutInformationArray[1].texttwo}
             </AboutDescription>

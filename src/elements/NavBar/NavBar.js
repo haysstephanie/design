@@ -15,22 +15,12 @@ const NavBarOptions = [
 ];
 
 const NavBar = (props) => {
-  const { liveSection, setLiveSection } = props;
-
-  const handleClick = (section) => {
-    setLiveSection(section);
-  };
-
   return (
     <NavBarWrapper>
       <NavBarInner>
         {NavBarOptions.map((element, i) => {
           return (
-            <Link
-              to={`${element.link}`}
-              onClick={handleClick(element.name)}
-              style={{ textDecoration: "none" }}
-            >
+            <Link to={`${element.link}`} style={{ textDecoration: "none" }}>
               <NavBarItem>{element.name}</NavBarItem>
             </Link>
           );
