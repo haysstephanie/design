@@ -9,6 +9,7 @@ import Projects from "./pages/Projects";
 import ArtDirection from "./pages/ArtDirection";
 import Digital from "./pages/Digital";
 import About from "./pages/About";
+import Social from "./pages/Social";
 import ScrollToTop from "./elements/ScrollToTop/ScrollToTop";
 
 function App() {
@@ -68,6 +69,15 @@ function App() {
             path="/about"
             element={
               <About
+                liveSection={liveSection}
+                setLiveSection={setLiveSection}
+              />
+            }
+          />
+          <Route
+            path="/social"
+            element={
+              <Social
                 liveSection={liveSection}
                 setLiveSection={setLiveSection}
               />

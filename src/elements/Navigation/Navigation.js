@@ -18,6 +18,10 @@ const NavigationOptions = [
     name: "Art Direction",
     link: "/art-direction",
   },
+  {
+    name: "Social",
+    link: "/social",
+  },
 ];
 
 const Navigation = (props) => {
