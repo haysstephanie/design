@@ -44,7 +44,7 @@ const ProjectImageWrapper = styled("div", {
   columnGap: "30px",
   rowGap: "60px",
   justifyContent: "center",
-  alignItems: "center",
+  alignItems: "flex-start",
 
   "& .video": {
     width: "75%",

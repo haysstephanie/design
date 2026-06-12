@@ -13,6 +13,9 @@ const NavigationItem = styled("div", {
   marginBottom: "16px",
   paddingBottom: "16px",
   color: "black",
+  "&:hover": {
+    color: "#F0CD48",
+  },
 });
 
 export { NavigationWrapper, NavigationItem };

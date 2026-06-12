@@ -6,7 +6,7 @@ const AboutHeader = styled("div", {
   display: "flex",
   alignItems: "center",
   //   flexDirection: "column",
-  gap: "30px",
+  gap: "50px",
   justifyContent: "space-between",
 });
 
@@ -41,6 +41,8 @@ const AwardTitle = styled("div", {
 
 const AboutDownpageWrapper = styled("div", {
   display: "flex",
+  marginBottom: "100px",
+  paddingBottom: "50px",
 });
 
 export {

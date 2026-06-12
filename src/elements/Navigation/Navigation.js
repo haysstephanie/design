@@ -52,6 +52,7 @@ const Navigation = (props) => {
                   i === NavigationOptions.length - 1
                     ? "none"
                     : "0.5px solid black",
+                color: "black",
               }}
             >
               {element.name} <span style={{ fontStyle: "normal" }}>➻</span>

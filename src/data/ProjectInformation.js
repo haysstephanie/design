@@ -76,6 +76,24 @@ export const projectInformationArray = [
         source: "projects/jefferson/jefferson-spread.png",
         pagetype: "double",
       },
+      {
+        type: "image",
+        source: "projects/jefferson/jefferson-mobile-1.png",
+        altText: ``,
+        pagetype: "mobile",
+      },
+      {
+        type: "image",
+        source: "projects/jefferson/jefferson-mobile-2.png",
+        altText: ``,
+        pagetype: "mobile",
+      },
+      {
+        type: "image",
+        source: "projects/jefferson/jefferson-mobile-3.png",
+        altText: ``,
+        pagetype: "mobile",
+      },
     ],
   },
   {

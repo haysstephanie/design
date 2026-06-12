@@ -10,6 +10,7 @@ import {
   OverviewWrapper,
   Description,
   ProjectName,
+  ProjectDescription,
 } from "../app.stitches";
 import {
   ProjectWrapper,
@@ -24,6 +25,7 @@ import {
   AboutDownpageWrapper,
 } from "./About.stitches";
 import { aboutInformationArray } from "../data/AboutInformation";
+import Navigation from "../elements/Navigation/Navigation";
 
 const name = "Hi, I'm Stephanie!";
 // const description = "tktktktk";
@@ -38,8 +40,33 @@ const About = (props) => {
           <div>
             <Name>{name}</Name>
             {/* <Description>{aboutInformationArray[1].text}</Description> */}
-            <AboutDescription>
+            <ProjectDescription>
               {aboutInformationArray[1].texttwo}
+            </ProjectDescription>
+            <AboutDescription>
+              <a
+                href="/projects/about/Hays_Resume_2026.pdf"
+                target="_blank"
+                style={{ color: "black" }}
+              >
+                Resume
+              </a>{" "}
+              •{" "}
+              <a
+                href={`mailto:stephanie.n.hays@gmail.com`}
+                target="_blank"
+                style={{ color: "black" }}
+              >
+                Email
+              </a>{" "}
+              •
+              <a
+                href="https://www.linkedin.com/in/stephanie-hays/?skipRedirect=true"
+                target="_blank"
+                style={{ color: "black" }}
+              >
+                LinkedIn
+              </a>
             </AboutDescription>
           </div>
         </AboutHeader>
@@ -85,6 +112,7 @@ const About = (props) => {
             })}
           </div>
         </AboutDownpageWrapper>
+        <Navigation />
       </PageWrapper>
       <Copyright />
     </div>
