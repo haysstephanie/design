@@ -18,7 +18,7 @@ import Navigation from "../elements/Navigation/Navigation";
 
 const name = "Projects";
 const description =
-  "Long-term projects spanning multiple platforms and disciplines at The Washington Post and The Seattle Times";
+  "Long-term projects spanning multiple platforms and disciplines at The Washington Post";
 
 const Projects = (props) => {
   const { liveSection, setLiveSection } = props;

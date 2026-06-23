@@ -25,7 +25,7 @@ import Navigation from "../elements/Navigation/Navigation";
 
 const name = "Print layout";
 const description =
-  "Print design for The Washington Post, The Seattle Times and the Sacramento Business Journal";
+  "Print design for The Washington Post and The Seattle Times";
 
 const PrintLayout = (props) => {
   const { liveSection, setLiveSection } = props;

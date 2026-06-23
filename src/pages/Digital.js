@@ -25,7 +25,7 @@ import { digitalInformationArray } from "../data/DigitalInformation";
 import Navigation from "../elements/Navigation/Navigation";
 
 const name = "Digital";
-const description = "Web design and development. Coded with React";
+const description = "Web design and development. Coded with React.";
 
 const Digital = (props) => {
   const { liveSection, setLiveSection } = props;
