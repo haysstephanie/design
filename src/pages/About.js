@@ -59,7 +59,7 @@ const About = (props) => {
               >
                 Email
               </a>{" "}
-              •
+              •{" "}
               <a
                 href="https://www.linkedin.com/in/stephanie-hays/?skipRedirect=true"
                 target="_blank"
