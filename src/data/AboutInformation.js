@@ -7,7 +7,7 @@ export const aboutInformationArray = [
     type: "description",
     text: "I'm Stephanie Hays, a designer, developer and art director.",
     texttwo:
-      "I'm currently a Senior Designer at The Washington Post, where I work on wide-ranging projects across the newsroom, from a historical series about Thomas Jefferson, to the branding of total solar eclipse coverage, to redesigning our quiz template. Previously, I was a designer at The Seattle Times and the lead designer at the Sacramento Business Journal. Outside of work, you can find me rock climbing or taking photos.",
+      "I'm currently a Senior Designer at The Washington Post, where I work on wide-ranging projects across the newsroom, from a historical series about Thomas Jefferson, to the branding of total solar eclipse coverage, to a redesign of our quiz template. Previously, I was a designer at The Seattle Times and the lead designer at the Sacramento Business Journal. Outside of work, you can find me rock climbing or taking photos.",
   },
   {
     type: "Selected awards",

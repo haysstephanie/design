@@ -14,7 +14,7 @@ import {
 
 const name = "Stephanie Hays";
 const description =
-  "is a Senior Designer at The Washington Post. Her skills include web development, UX/UI design, art direction and print design.";
+  "is a Senior Designer at The Washington Post. Her skills include web development, UX design, art direction, social media design and print design.";
 
 const typesOfWork = [
   "Projects",

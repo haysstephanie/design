@@ -39,7 +39,7 @@ export const printInformationArray = [
         imageLink: "projects/print/news/wwi-spread.png",
         pdfLink: "projects/print/news/wwi-spread.pdf",
         awards:
-          "Award of Excellence from The Society of News Design (SND) for Regional/Local Page Design",
+          "Award of Excellence from the Society of News Design (SND) for Regional/Local Page Design",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const printInformationArray = [
   {
     title: "The 47th President",
     description:
-      "Select pages from a special section ahead of the inauguration of Donald Trump",
+      "Selected pages from a special section ahead of the inauguration of Donald Trump",
     awards: ``,
     pages: [
       {

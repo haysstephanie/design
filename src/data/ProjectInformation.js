@@ -50,7 +50,7 @@ export const projectInformationArray = [
       {
         type: "image",
         source: "projects/jefferson/jefferson-chapter1-sm.jpg",
-        alt: `An image of a newspaper front page. The main display is of several receipts relating to the upkeep of a Russian Oligarch's yacht.`,
+        alt: ``,
       },
       {
         type: "image",
@@ -102,10 +102,10 @@ export const projectInformationArray = [
       "Designed a cohesive visual language for a seven-part series about the rise of sanctions in U.S. foreign policy. Worked with key stakeholders across design, graphics and photo to ensure all elements felt fitting in the series. Juggled stories that needed to be told in different formats, identifying the best method of storytelling for each piece. Illustrations by Chantal Jahchan and Kyle Ellingson.",
     skills: "Web development, Digital design, Art direction, Print design",
     awards: [
-      { award: "Gerald Loeb award in the International category" },
+      { award: "Gerald Loeb Award in the International category" },
       {
         award:
-          "Award of Excellence for Investigative Special Coverage from The Society for News Design",
+          "Award of Excellence for Investigative Special Coverage from the Society for News Design",
       },
     ],
 
@@ -144,7 +144,7 @@ export const projectInformationArray = [
       {
         type: "image",
         source: "projects/moneywar/upkeep-a1-mock.png",
-        alt: `An image of a newspaper front page. The main display is of several receipts relating to the upkeep of a Russian Oligarch's yacht.`,
+        alt: ``,
       },
       {
         type: "image",
@@ -260,13 +260,13 @@ export const projectInformationArray = [
   {
     name: "Total solar eclipse coverage",
     description:
-      "Designed the branding for The Post's coverage of the 2024 total solar eclipse by pitching a color palette, logo, landing page and special section. Coordinated across the design team and other desks in the newsroom to ensure all covereage was in line with our brand. Also designed and developed several stories about the eclipse. Collaborated with Emily Sabens. Illustrations by Evan Cohen and Lauren Martin.",
+      "Designed the branding for The Post's coverage of the 2024 total solar eclipse by pitching a color palette, logo, landing page and special section. Coordinated across the design team and other desks in the newsroom to ensure all coverage was in line with our brand. Also designed and developed several stories about the eclipse. Collaborated with Emily Sabens. Illustrations by Evan Cohen and Lauren Martin.",
     skills:
       "Branding, Web development, Digital design, Art direction, Print design",
     awards: [
       {
         award:
-          "Award of Excellence for Regional/Local Special Coverage from The Society for News Design",
+          "Award of Excellence for Regional/Local Special Coverage from the Society for News Design",
       },
     ],
     stories: [
@@ -318,7 +318,7 @@ export const projectInformationArray = [
   {
     name: "Youth Crime in D.C.",
     description:
-      "A four-part series about youth crime in D.C. Art directed a series of three illustrations with a uniting clock motif and consistent color palette. Designed and developed a thoughtful way to display documents in a screen-reader and mobile-friendly format. Illustrations by Sally Deng. Collaborated with Carson TerBush.",
+      "A four-part series about youth crime in D.C. Art directed a series of three illustrations with a unifying clock motif and consistent color palette. Designed and developed a thoughtful way to display documents in a screen-reader and mobile-friendly format. Illustrations by Sally Deng. Collaborated with Carson TerBush.",
     skills: "Web development, Art direction, UX design, Print design",
     awards: [
       {
