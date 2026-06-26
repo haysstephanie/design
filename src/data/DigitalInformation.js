@@ -5,7 +5,7 @@ export const digitalInformationArray = [
     awards: "Award of Excellence from SND for Regional/Local page design",
     url: "https://www.washingtonpost.com/dc-md-va/interactive/2024/dc-crime-homicide-victims-shooting-violence/",
     video: {
-      src: "projects/digital/dc-homicide.mp4",
+      src: "/projects/digital/dc-homicide.mp4",
       alt: "",
     },
   },
@@ -15,7 +15,7 @@ export const digitalInformationArray = [
     awards: "",
     url: "https://www.washingtonpost.com/nation/interactive/2024/pictures-of-the-year-2024/",
     video: {
-      src: "projects/digital/yip.mp4",
+      src: "/projects/digital/yip.mp4",
       alt: "",
     },
   },
@@ -25,7 +25,7 @@ export const digitalInformationArray = [
     awards: "",
     url: "https://www.washingtonpost.com/health/interactive/2023/stress-chronic-illness-aging/",
     video: {
-      src: "projects/digital/stress.mp4",
+      src: "/projects/digital/stress.mp4",
       alt: "",
     },
   },
@@ -35,7 +35,7 @@ export const digitalInformationArray = [
     awards: "",
     url: "https://www.washingtonpost.com/world/interactive/2025/ukraine-russia-children-killed-war/",
     video: {
-      src: "projects/digital/ukrainechildren.mp4",
+      src: "/projects/digital/ukrainechildren.mp4",
       alt: "",
     },
   },
@@ -45,7 +45,7 @@ export const digitalInformationArray = [
     awards: "",
     url: "https://www.washingtonpost.com/world/interactive/2023/ukraine-russia-anniversary-portraits/",
     video: {
-      src: "projects/digital/ukraine.mp4",
+      src: "/projects/digital/ukraine.mp4",
       alt: "",
     },
   },

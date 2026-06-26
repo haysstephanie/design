@@ -49,48 +49,48 @@ export const projectInformationArray = [
     visuals: [
       {
         type: "image",
-        source: "projects/jefferson/jefferson-chapter1-sm.jpg",
+        source: "/projects/jefferson/jefferson-chapter1-sm.jpg",
         alt: ``,
       },
       {
         type: "image",
-        source: "projects/jefferson/jefferson-chapter4-sm.jpg",
+        source: "/projects/jefferson/jefferson-chapter4-sm.jpg",
         alt: ``,
       },
       {
         type: "image",
-        source: "projects/jefferson/jefferson-chapter6-sm.jpg",
+        source: "/projects/jefferson/jefferson-chapter6-sm.jpg",
         alt: ``,
       },
       {
         type: "video",
-        source: "projects/jefferson/jefferson-chapter6.mp4",
+        source: "/projects/jefferson/jefferson-chapter6.mp4",
       },
       {
         type: "image",
-        source: "projects/jefferson/jefferson-cover.png",
+        source: "/projects/jefferson/jefferson-cover.png",
         pagetype: "single",
       },
       {
         type: "image",
-        source: "projects/jefferson/jefferson-spread.png",
+        source: "/projects/jefferson/jefferson-spread.png",
         pagetype: "double",
       },
       {
         type: "image",
-        source: "projects/jefferson/jefferson-mobile-1.png",
+        source: "/projects/jefferson/jefferson-mobile-1.png",
         altText: ``,
         pagetype: "mobile",
       },
       {
         type: "image",
-        source: "projects/jefferson/jefferson-mobile-2.png",
+        source: "/projects/jefferson/jefferson-mobile-2.png",
         altText: ``,
         pagetype: "mobile",
       },
       {
         type: "image",
-        source: "projects/jefferson/jefferson-mobile-3.png",
+        source: "/projects/jefferson/jefferson-mobile-3.png",
         altText: ``,
         pagetype: "mobile",
       },
@@ -139,53 +139,53 @@ export const projectInformationArray = [
     visuals: [
       {
         type: "video",
-        source: "projects/moneywar/overview-video.mp4",
+        source: "/projects/moneywar/overview-video.mp4",
       },
       {
         type: "image",
-        source: "projects/moneywar/upkeep-a1-mock.png",
+        source: "/projects/moneywar/upkeep-a1-mock.png",
         alt: ``,
       },
       {
         type: "image",
-        source: "projects/moneywar/upkeep-spread.png",
+        source: "/projects/moneywar/upkeep-spread.png",
         alt: ``,
         pagetype: "double",
       },
       {
         type: "image",
-        source: "projects/moneywar/sanctions-mobile-1.png",
+        source: "/projects/moneywar/sanctions-mobile-1.png",
         altText: ``,
         pagetype: "mobile",
       },
       {
         type: "image",
-        source: "projects/moneywar/sanctions-mobile-2.png",
+        source: "/projects/moneywar/sanctions-mobile-2.png",
         altText: ``,
         pagetype: "mobile",
       },
       {
         type: "image",
-        source: "projects/moneywar/sanctions-mobile-3.png",
+        source: "/projects/moneywar/sanctions-mobile-3.png",
         altText: ``,
         pagetype: "mobile",
       },
 
       {
         type: "image",
-        source: "projects/moneywar/navigator-mock.png",
+        source: "/projects/moneywar/navigator-mock.png",
         alt: ``,
         pagetype: "single",
       },
       {
         type: "image",
-        source: "projects/moneywar/guatemala-spread.png",
+        source: "/projects/moneywar/guatemala-spread.png",
         alt: ``,
         pagetype: "double",
       },
       {
         type: "video",
-        source: "projects/moneywar/navigator-video.mp4",
+        source: "/projects/moneywar/navigator-video.mp4",
       },
     ],
   },
@@ -238,22 +238,22 @@ export const projectInformationArray = [
     visuals: [
       {
         type: "video",
-        source: "projects/crossroads/crossroads.mp4",
+        source: "/projects/crossroads/crossroads.mp4",
       },
       {
         type: "image",
-        source: "projects/crossroads/crossroads-cover.png",
+        source: "/projects/crossroads/crossroads-cover.png",
         altText: ``,
       },
       {
         type: "image",
-        source: "projects/crossroads/crossroads-spread.png",
+        source: "/projects/crossroads/crossroads-spread.png",
         altText: ``,
         pagetype: "double",
       },
       {
         type: "video",
-        source: "projects/crossroads/coup-leader.mp4",
+        source: "/projects/crossroads/coup-leader.mp4",
       },
     ],
   },
@@ -287,29 +287,29 @@ export const projectInformationArray = [
     visuals: [
       {
         type: "video",
-        source: "projects/eclipse/eclipseviz.mp4",
+        source: "/projects/eclipse/eclipseviz.mp4",
       },
       {
         type: "image",
-        source: "projects/eclipse/eclipse-1.png",
+        source: "/projects/eclipse/eclipse-1.png",
         altText: ``,
         pagetype: "single",
       },
       {
         type: "image",
-        source: "projects/eclipse/eclipse-2.png",
+        source: "/projects/eclipse/eclipse-2.png",
         altText: ``,
         pagetype: "double",
       },
       {
         type: "animation",
-        source: "projects/eclipse/eclipse-quiz.mp4",
+        source: "/projects/eclipse/eclipse-quiz.mp4",
         altText: ``,
         pagetype: "double",
       },
       {
         type: "image",
-        source: "projects/eclipse/eclipse-spots.png",
+        source: "/projects/eclipse/eclipse-spots.png",
         altText: ``,
         pagetype: "single",
       },
@@ -347,34 +347,34 @@ export const projectInformationArray = [
     visuals: [
       {
         type: "animation",
-        source: "projects/artdirection/dcyouth-truancy.mp4",
+        source: "/projects/artdirection/dcyouth-truancy.mp4",
       },
       {
         type: "animation",
-        source: "projects/artdirection/dcyouth-dyrs.mp4",
+        source: "/projects/artdirection/dcyouth-dyrs.mp4",
       },
 
       {
         type: "image",
-        source: "projects/dcyouth/dcyouth-mobile-1.png",
+        source: "/projects/dcyouth/dcyouth-mobile-1.png",
         altText: ``,
         pagetype: "mobile",
       },
       {
         type: "image",
-        source: "projects/dcyouth/dcyouth-mobile-2.png",
+        source: "/projects/dcyouth/dcyouth-mobile-2.png",
         altText: ``,
         pagetype: "mobile",
       },
       {
         type: "image",
-        source: "projects/dcyouth/dcyouth-mobile-3.png",
+        source: "/projects/dcyouth/dcyouth-mobile-3.png",
         altText: ``,
         pagetype: "mobile",
       },
       {
         type: "image",
-        source: "projects/dcyouth/dcyouth-print.png",
+        source: "/projects/dcyouth/dcyouth-print.png",
         altText: ``,
         pagetype: "double",
       },

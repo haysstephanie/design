@@ -1,7 +1,7 @@
 export const aboutInformationArray = [
   {
     type: "image",
-    source: "projects/about/stephanie.jpg",
+    source: "/projects/about/stephanie.jpg",
   },
   {
     type: "description",
