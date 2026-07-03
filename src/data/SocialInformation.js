@@ -43,6 +43,65 @@ export const socialInformationArray = [
     ],
   },
   {
+    title:
+      "Cocktail menus can be confusing. Here's how to choose a drink you'll love.",
+    description: "",
+    awards: "",
+    url: "https://www.instagram.com/p/DZvW5kQlLzS/?img_index=1",
+    images: [
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-1.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-2.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-3.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-4.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-5.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-6.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-7.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-8.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-9.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/spirits/spirits-10.jpg",
+        alt: "",
+      },
+    ],
+  },
+  {
     title: "The game. The fits. The aura.",
     description: "",
     awards: "",
@@ -195,59 +254,54 @@ export const socialInformationArray = [
   },
   {
     title:
-      "He spent 60 years building Black political power. He sees a wipeout coming.",
+      "People are ditching their phones and going offline for a new 'Summer of Ludd' festival",
     description: "",
     awards: "",
-    url: "https://www.instagram.com/p/DX-l5ZUlwYc/?img_index=1",
+    url: "https://www.instagram.com/p/DZ8qARxjhAD/?img_index=1",
     images: [
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_01.jpg",
+        src: "/projects/social/phones/phones-1.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_02.jpg",
+        src: "/projects/social/phones/phones-2.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_03.jpg",
+        src: "/projects/social/phones/phones-3.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_04.jpg",
+        src: "/projects/social/phones/phones-4.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_05.jpg",
+        src: "/projects/social/phones/phones-5.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_06.jpg",
+        src: "/projects/social/phones/phones-6.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_07.jpg",
+        src: "/projects/social/phones/phones-7.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_08.jpg",
+        src: "/projects/social/phones/phones-8.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/BlackPower/blackpower_09.jpg",
-        alt: "",
-      },
-      {
-        type: "image",
-        src: "/projects/social/BlackPower/blackpower_10.jpg",
+        src: "/projects/social/phones/phones-9.jpg",
         alt: "",
       },
     ],
