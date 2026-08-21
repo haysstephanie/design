@@ -10,6 +10,7 @@ import ArtDirection from "./pages/ArtDirection";
 import Digital from "./pages/Digital";
 import About from "./pages/About";
 import Social from "./pages/Social";
+import Illustration from "./pages/Illustration";
 import ScrollToTop from "./elements/ScrollToTop/ScrollToTop";
 
 function App() {
@@ -78,6 +79,15 @@ function App() {
             path="/social"
             element={
               <Social
+                liveSection={liveSection}
+                setLiveSection={setLiveSection}
+              />
+            }
+          />
+          <Route
+            path="/illustration"
+            element={
+              <Illustration
                 liveSection={liveSection}
                 setLiveSection={setLiveSection}
               />

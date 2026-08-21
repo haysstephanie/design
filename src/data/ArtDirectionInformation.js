@@ -1,5 +1,39 @@
 export const artDirectionInformationArray = [
   {
+    title: "America at 300: Imagining the next half-century of change",
+    description: "",
+    link: "https://www.washingtonpost.com/science/2026/07/01/america-300-imagining-next-half-century-change/",
+    illustrator: [
+      {
+        name: "Illustrations by Ibrahim Rayintakath",
+        portfolio: "https://rayintakath.com/",
+      },
+    ],
+
+    illustrations: [
+      {
+        type: "image",
+        size: "main",
+        source: "/projects/artdirection/america2076.jpg",
+      },
+      {
+        type: "image",
+        size: "spot",
+        source: "/projects/artdirection/america2076-spot1.jpg",
+      },
+      {
+        type: "image",
+        size: "spot",
+        source: "/projects/artdirection/america2076-spot2.jpg",
+      },
+      {
+        type: "image",
+        size: "spot",
+        source: "/projects/artdirection/america2076-spot3.jpg",
+      },
+    ],
+  },
+  {
     title: "The major Supreme Court decisions in 2025",
     description: "",
     awards: "",
@@ -50,6 +84,27 @@ export const artDirectionInformationArray = [
         type: "image",
         size: "spot",
         source: "/projects/artdirection/brazil-3.jpg",
+      },
+    ],
+  },
+  {
+    title:
+      "Why the nation’s founding document is marred by stains, a mysterious handprint",
+    description: "",
+    awards: "",
+    link: "https://www.washingtonpost.com/politics/2026/06/28/why-stains-creases-handprint-mar-declaration-independence/",
+    illustrator: [
+      {
+        name: "Illustration by Leland Foster",
+        portfolio: "https://www.lelandkfoster.com/",
+      },
+    ],
+
+    illustrations: [
+      {
+        type: "video",
+        size: "main",
+        source: "/projects/artdirection/declaration.mp4",
       },
     ],
   },

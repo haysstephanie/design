@@ -1,43 +1,135 @@
 export const socialInformationArray = [
   {
-    title: "Adam Scott isn't afraid of playing the jerk",
+    title: "Welcome to the world's only theme park dedicated to St. Bernards",
     description: "",
     awards: "",
-    url: "https://www.instagram.com/p/DX9W5PnDkuy/?img_index=1",
+    url: "https://www.instagram.com/p/DcCtnfaGtz0/?img_index=1",
     images: [
       {
         type: "image",
-        src: "/projects/social/Scott/Scott_01.jpg",
+        src: "/projects/social/stbernard/stbernard-01.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/Scott/Scott_02.jpg",
+        src: "/projects/social/stbernard/stbernard-02.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/Scott/Scott_03.jpg",
+        src: "/projects/social/stbernard/stbernard-03.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/Scott/Scott_04.jpg",
+        src: "/projects/social/stbernard/stbernard-04.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/Scott/Scott_05.jpg",
+        src: "/projects/social/stbernard/stbernard-05.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/Scott/Scott_06.jpg",
+        src: "/projects/social/stbernard/stbernard-06.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/Scott/Scott_07.jpg",
+        src: "/projects/social/stbernard/stbernard-07.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/stbernard/stbernard-08.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/stbernard/stbernard-09.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/stbernard/stbernard-10.jpg",
+        alt: "",
+      },
+    ],
+  },
+  {
+    title: "These are the celebrity wines worth buying",
+    description: "",
+    awards: "",
+    url: "https://www.instagram.com/p/DbTnMjVFG6A/?img_index=1",
+    images: [
+      {
+        type: "image",
+        src: "/projects/social/celebritywines/celebritywines_01.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/celebritywines/celebritywines_02.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/celebritywines/celebritywines_03.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/celebritywines/celebritywines_04.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/celebritywines/celebritywines_05.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/celebritywines/celebritywines_06.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/celebritywines/celebritywines_07.jpg",
+        alt: "",
+      },
+    ],
+  },
+  {
+    title:
+      "Wish you had a robot to do your chores? Tech companies are paying people to show them how.",
+    description: "",
+    awards: "",
+    url: "https://www.instagram.com/p/DXmWOjKlcGH/?img_index=1",
+    images: [
+      {
+        type: "video",
+        src: "/projects/social/robotlaundry/robotlaundry-1-sm.mp4",
+        alt: "",
+      },
+      {
+        type: "video",
+        src: "/projects/social/robotlaundry/robotlaundry-2-sm.mp4",
+        alt: "",
+      },
+      {
+        type: "video",
+        src: "/projects/social/robotlaundry/robotlaundry-3-sm.mp4",
+        alt: "",
+      },
+      {
+        type: "video",
+        src: "/projects/social/robotlaundry/robotlaundry-4-sm.mp4",
+        alt: "",
+      },
+      {
+        type: "video",
+        src: "/projects/social/robotlaundry/robotlaundry-5-sm.mp4",
         alt: "",
       },
     ],
@@ -253,55 +345,59 @@ export const socialInformationArray = [
     ],
   },
   {
-    title:
-      "People are ditching their phones and going offline for a new 'Summer of Ludd' festival",
+    title: "Pizza Hut is struggling. Can red-roof nostalgia help save it?",
     description: "",
     awards: "",
-    url: "https://www.instagram.com/p/DZ8qARxjhAD/?img_index=1",
+    url: "https://www.instagram.com/p/Dai1-M1FBKe/?img_index=1",
     images: [
       {
         type: "image",
-        src: "/projects/social/phones/phones-1.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_01.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/phones/phones-2.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_02.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/phones/phones-3.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_03.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/phones/phones-4.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_04.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/phones/phones-5.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_05.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/phones/phones-6.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_06.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/phones/phones-7.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_07.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/phones/phones-8.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_08.jpg",
         alt: "",
       },
       {
         type: "image",
-        src: "/projects/social/phones/phones-9.jpg",
+        src: "/projects/social/pizzahut/PizzaHut_09.jpg",
+        alt: "",
+      },
+      {
+        type: "image",
+        src: "/projects/social/pizzahut/PizzaHut_10.jpg",
         alt: "",
       },
     ],

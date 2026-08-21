@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 
 const NavigationOptions = [
   {
-    name: "Projects",
+    name: "Cross-platform Projects",
     link: "/projects",
-  },
-  {
-    name: "Print",
-    link: "/print",
   },
   {
     name: "Digital",
@@ -21,6 +17,14 @@ const NavigationOptions = [
   {
     name: "Social",
     link: "/social",
+  },
+  {
+    name: "Illustration",
+    link: "/illustration",
+  },
+  {
+    name: "Print",
+    link: "/print",
   },
 ];
 

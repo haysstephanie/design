@@ -65,12 +65,22 @@ const WorkType = styled("div", {
   paddingLeft: "8px",
 });
 
+const ProjectOrganization = styled("div", {
+  fontFamily: "Roboto",
+  fontWeight: 300,
+  fontSize: "14px",
+  lineHeight: "20px",
+  marginBottom: "16px",
+  textTransform: "uppercase",
+});
+
 const ProjectName = styled("div", {
   fontFamily: "RobotoSerif",
   fontSize: "30px",
   lineHeight: "125%",
   fontWeight: 700,
   fontStyle: "italic",
+
   // marginBottom: "24px",
 });
 
@@ -108,7 +118,7 @@ const Award = styled("div", {
   // fontStyle: "italic",
   fontWeight: 300,
   fontSize: "16px",
-  lineHeight: "20px",
+  lineHeight: "22px",
 });
 
 export {
@@ -118,6 +128,7 @@ export {
   OverviewWrapper,
   Description,
   WorkType,
+  ProjectOrganization,
   ProjectName,
   ProjectDescription,
   Headline,

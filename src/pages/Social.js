@@ -80,13 +80,14 @@ const Social = (props) => {
                 {post.images.map((art, i) => {
                   switch (art.type) {
                     case "video":
+                      console.log(art.src);
                       return (
                         <video
                           autoPlay
                           muted
                           loop
-                          src={art.source}
-                          className={`video ${art.size}`}
+                          src={art.src}
+                          className={`video`}
                         />
                       );
                     case "image":

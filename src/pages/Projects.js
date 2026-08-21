@@ -16,7 +16,7 @@ import ProjectSection from "../elements/ProjectSection/ProjectSection";
 import NavBar from "../elements/NavBar/NavBar";
 import Navigation from "../elements/Navigation/Navigation";
 
-const name = "Projects";
+const name = "Cross-platform Projects";
 const description =
   "Long-term projects spanning multiple platforms and disciplines at The Washington Post";
 

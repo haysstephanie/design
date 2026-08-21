@@ -17,6 +17,9 @@ const PostWrapper = styled("div", {
     "& img": {
       maxWidth: "47%",
     },
+    "& video": {
+      width: "47%",
+    },
   },
 });
 

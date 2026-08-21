@@ -12,7 +12,7 @@ const IllustratorName = styled("div", {
 });
 
 const IllustrationWrapper = styled("div", {
-  maxWidth: "70%",
+  maxWidth: "50%",
   display: "flex",
   flexWrap: "wrap",
   gap: "20px",
@@ -31,8 +31,7 @@ const IllustrationWrapper = styled("div", {
     maxWidth: "100%",
     "& .spot": {
       flex: 1,
-      minWidth: "47%",
-      maxWidth: "47%",
+      minWidth: "45%",
     },
   },
 });
